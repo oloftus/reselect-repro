@@ -1,0 +1,12 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "npm.packageManager": "npm"
+      }
+    }
+  }
+}
